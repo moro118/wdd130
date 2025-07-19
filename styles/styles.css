@@ -44,6 +44,7 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 aside img {
     width: var(--aside-img-width);
