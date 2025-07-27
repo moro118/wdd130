@@ -40,6 +40,7 @@ nav, p, section, article{
     text-decoration: none;
 }
 .hero {
+
 position: relative;
 text-align: center;
 
@@ -64,16 +65,26 @@ h1{
     background-color: var(--primary-color);
     color: #fff;
 }
+article h3{
+    float: left;
+    width: 50%;
+    position: absolute;
+    margin-bottom: 1rem;
+    color: black;
+    left: 10%;
+    top: 30px;
+    opacity: 0.9;
+}
 article{
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: absolute  ;
     top: 100px;
-    left: 50%;    
+    left: 48.2%;    
     transform: translateX(-50%);
-    width: 80%;     
+    width: 100%;    
     background-color: var(--accent2-color);
     opacity: 0.9;
     padding: 16px;  
