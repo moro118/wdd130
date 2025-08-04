@@ -344,3 +344,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background: var(--contrastcolor);
 }
+.maps{
+    border:0;
+    padding: 20px;
+}
