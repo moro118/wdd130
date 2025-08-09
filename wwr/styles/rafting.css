@@ -395,6 +395,9 @@ button[type="submit"]:hover {
     padding-left: 10%;
   
 }
+.newsletter h3{
+    background-color: #333;
+}
 .newsletter form{
     width: 50%;
     background-color: transparent;
@@ -425,12 +428,12 @@ h3{
 .hero-home h1{
     position: absolute;
     padding: 0%;
-    background-color: transparent;
     color: var(--accent2-color);
-    background-color:var(--primary-color);
+    background-color:black;
     width: fit-content;
     align-self: center;
     justify-self: center;
+    color:var(--accent1-color)
 }
 .galery-home p{
 color: #005fa3;
@@ -584,7 +587,7 @@ width: 100%;
  border-radius: 10px;
 }
 .callarticle p{
- color:var(--accent2-color);
+ color:black;
  padding: 5px 10px;
  border-radius: 10px;
  align-self: center;
@@ -599,6 +602,7 @@ width: 100%;
 position: relative;
 background-color: #38A3A5;
 margin-bottom: 5%;
+color: #333;
 }
 .tripinfo{
     display: flex;
@@ -618,4 +622,8 @@ font-size:medium;
    padding: 1px;
    color: #333;
    margin: 1px;;
+}
+.mainhome h1{
+    background-color: black;
+    color: var(--accent2-color);
 }
