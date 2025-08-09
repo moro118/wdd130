@@ -565,6 +565,7 @@ width: 100%;
 .callaction{
     position: relative;
     background-color:#333;
+    width: 100%;
 }
 .callarticle {
     display: flex;
@@ -574,7 +575,9 @@ width: 100%;
     position: absolute;
     justify-content: center;
     top:50%;
-    left: 45%;
+    left: 60%;
+    position: 100%;
+    width: 40%;
 }
 .callarticle a{
  color: #C7F9CC;
