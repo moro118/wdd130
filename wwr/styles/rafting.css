@@ -401,7 +401,6 @@ button[type="submit"]:hover {
 }
 
 #home-email, #home-password{
-size: 100%;
 width: 150%;
 padding: 3%;
 background-color: transparent;
@@ -576,7 +575,6 @@ width: 100%;
     justify-content: center;
     top:50%;
     left: 60%;
-    position: 100%;
     width: 40%;
 }
 .callarticle a{
